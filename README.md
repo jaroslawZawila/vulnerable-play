@@ -30,4 +30,11 @@ Query the service:
 <!DOCTYPE foo SYSTEM "http://127.0.0.1:8000/test.dtd">
 <foo>&e1;</foo>
 ```
+
+
+TODO:
+- https://github.com/irsl/jackson-rce-via-spel
+- Look at JSON problems "https://github.com/conikeec/jackspoilt"
+- https://www.cvedetails.com/cve/CVE-2017-15095/
+- https://adamcaudill.com/2017/10/04/exploiting-jackson-rce-cve-2017-7525/
  
