@@ -1,0 +1,4 @@
+# Home page
+POST     /hello                      controllers.Application.index
+
+POST    /                           controllers.Application.post
