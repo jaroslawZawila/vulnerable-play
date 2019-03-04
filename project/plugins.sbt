@@ -9,3 +9,4 @@ addSbtPlugin("net.vonbuchholtz" % "sbt-dependency-check" % "0.2.10")
 
 //
 addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "0.7.6")
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.9")

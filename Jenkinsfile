@@ -1,4 +1,4 @@
-node() {
+node('slave') {
     withCredentials([string(credentialsId: 'BINTRAY_API_KEY', variable: 'BINTRAY_API_KEY')]) {
         env.BINTRAY_USER = 'ovo-payments'
 
