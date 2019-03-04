@@ -10,7 +10,7 @@ node('slave') {
 
         try {
             stage('lint and test') {
-                sh "sbt -ivy /home/jenkins/ivy test"
+                sh "sbt -ivy /home/jenkins/ivy assembly"
             }
         }
         finally {
